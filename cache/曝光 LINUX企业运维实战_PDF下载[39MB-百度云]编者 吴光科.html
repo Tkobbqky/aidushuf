@@ -1,0 +1,45 @@
+曝光:LINUX企业运维实战 PDF下载 编者:吴光科 百度云 电子书 下载 电子书下载
+PDF电子书下载不求人，看这篇文章就够了→ http://www.chendianrong.com/pdf#730248484
+PDF电子书下载不求人，看这篇文章就够了→ http://www.chendianrong.com/pdf#730248484
+<p>书名:曝光:LINUX企业运维实战</p><p>作者:编者:吴光科</p><p>页数:564</p><p>定价:¥99.0</p><p>出版社:清华大学出版社</p><p>出版日期:2018-05-01</p><p>ISBN:9787302484844</p><p><h2>节选</h2></p>[<p>第5章Linux用户及权限管理 
+ 
+Linux是一个多用户的操作系统，引入用户，可以更加方便地管理Linux服务器。系统默认需要以一个用户的身份登入，而且在系统上启动进程也需要以一个用户身份启动运行，用户可以限制某些进程对特定资源的权限控制。 
+本章向读者介绍Linux系统如何管理、创建、删除、修改用户角色，用户权限配置，组权限配置及特殊权限等内容。 
+5.1Linux用户及组 
+Linux操作系统对多用户的管理是非常烦琐的，所以用组的概念来管理用户就变得简单，每个用户可以在一个独立的组，每个组也可以有零个用户或者多个用户。Linux系统用户是根据用户ID来识别的，默认ID长度为32位，默认ID编号从0开始，但是为了和老式系统兼容，用户ID限制在60000以下。Linux用户总共分为三种，分别如下：  
+ root用户(ID 0)；  
+ 系统用户(ID 1~499)；  
+ 普通用户(ID 500以上)。 
+Linux系统中的每个文件或者文件夹，都有一个所属用户及所属组，使用id命令可以显示当前用户的信息，使用passwd命令可以修改当前用户密码。Linux操作系统用户的特点如下：  
+ 每个用户拥有一个UserID，操作系统实际读取的是UID，而非用户名；  
+ 每个用户属于一个主组，属于一个或多个附属组，一个用户*多有31个附属组；  
+ 每个组拥有一个GroupID；  
+ 每个进程以一个用户身份运行，该用户可对进程拥有资源控制权限；  
+ 每个可登录用户拥有一个指定的shell环境。 
+5.2Linux用户管理 
+ 
+Linux用户在操作系统中可以进行日常管理和维护，涉及的相关配置文件如下：  
+ /etc/passwd： 保存用户信息。 
+ /etc/shdaow： 保存用户密码(以加密形式保存)。 
+ /etc/group： 保存组信息。 
+ /etc/login.defs： 用户属性、密码过期时间、密码*大长度等限制。 
+ /etc/default/useradd： 显示或更改默认的useradd配置文件。 
+如需创建新用户，可以使用命令useradd，执行命令useradd jfedu1即可创建jfedu1用户，同时会创建一个同名的组jfedu1，默认该用户属于jfedu1主组。 
+useradd jfedu1命令默认创建用户jfedu1，会根据如下步骤进行操作：  
+ 在/etc/passwd文件中添加用户信息；  
+ 如使用passwd命令创建密码，密码会被加密保存在/etc/shdaow中；  
+ 为jfedu1创建家目录/home/jfedu1；  
+ 将/etc/skel中的.bash开头的文件复制至/home/jfedu1家目录；  
+ 创建与用户名相同的jfedu1组，jfedu1用户默认属于jfeud1同名组 
+</p>]<p><h2>本书特色</h2></p>[<p>
+
+                                本书是Linux界泰山北斗吴光科力作，业内风靡的重磅作品，10余位专家联袂推荐! 赠送Linux视频教程、开发工具、学习笔记、源码、面试题、项目案例及教学课件的立体化学习解决方案！全书包含如下案例主题： 
+l  Linux系统管理实战案例 
+l  Linux高级编程实战案例 
+l  Linux负载均衡实战案例 
+l  Linux自动化运维实战案例 
+l  Linux虚拟化集群实战案例 
+l  Linux平台云计算实战案例            
+                                        </p>]<p><h2>内容简介</h2></p>[<p>本书系统地论述了Linux运维领域的各种技术，主要内容包括近期新版Linux系统安装的完整过程、系统启动原理、系统推荐的命令、系统管理、初学者推荐软件管理、基础服务实战、生产环境LAMP、Redis实战及备份、性能优化、Zabbix企业级分布式监控、Nginx高性能Web服务器实战及Nginx相关location、rewrite规则、日志分析实战、Nginx性能调优、自动化运维技术实战、shell编程入门、shell编程企业实战案例剖析、shell编程企业案例详解、Puppet、Ansible案例深入剖析、企业高性能负载均衡技术LVS、keepalived高可用集群满足千万PV门户网站架构、Haproxy高性能负载均衡、构建企业级自动化部署平台Jenkins、CI/CD自动部署及交付、Docker虚拟化企业实战、Docker镜像、容器、DokerFile、Docker生产环境一键脚本配置、Docker Pipework网络实战、Openstack私有云、Openstack企业实战、构建企业Openstack私有云、Openstack常见问题排错等核心内容。本书适合作为系统管理员、网络管理员、Linux运维工程师及网站开发、测试、设计人员等的参考用书。</p>]<p><h2>作者简介</h2></p>[<p>吴光科  京峰教育CEO，Linux运维实战专家，高级运维经理，京东商城运维架构师，51CTO学院Linux特级讲师，京峰Linux云计算教学总监，担任国内多家知名社区运维专家网站Linux版主。专注于Linux服务器架构运维近10年，擅长系统高并发、超万台级别的服务器维护、服务器性能调优、企业安全运维、Openstack、Docker、KVM及Kubernetes云计算、自动化运维等核心技术领域。长期从事国企机关、图吧、宜信、京东商城等知名企业的千万级、亿万级PV门户网站维护工作。 
+</p>]<p><h2>目录</h2></p>
+**篇Linux基础篇第1章Linux快速入门1.1为什么要学习Linux1.2Linux操作系统简介1.3Linux操作系统优点1.4Linux操作系统发行版1.532位与64位操作系统的区别1.6Linux内核命名规则第2章Linux发展及系统安装2.1Linux发展前景及就业形势2.2Windows操作系统简介2.3硬盘分区简介2.4Linux安装环境准备2.5Linux系统安装图解2.6菜鸟学好Linux大绝招本章小结同步作业第3章CentOS系统管理3.1操作系统启动概念3.1.1BIOS3.1.2MBR3.1.3GPT3.1.4GRUB3.2Linux操作系统启动流程3.3CentOS 6与CentOS 7区别3.4TCP/IP协议概述3.5IP地址及网络常识3.5.1IP地址分类3.5.2子网掩码3.5.3网关地址3.5.4MAC地址3.6Linux系统配置IP3.7Linux系统配置DNS3.8Linux网卡名称命名3.9CentOS 7密码重置3.10远程管理Linux服务器3.11Linux系统目录功能第4章Linux**命令4.1cd命令详解4.2ls命令详解4.3pwd命令详解4.4mkdir命令详解4.5rm命令详解4.6cp命令详解4.7mv命令详解4.8touch命令详解4.9cat命令详解4.10head命令详解4.11tail命令详解4.12chmod命令详解4.13chown命令详解4.14echo命令详解4.15df命令详解4.16du命令详解4.17vi/vim编辑器实战4.18vim编辑器模式4.19vim编辑器**本章小结同步作业第5章Linux用户及权限管理5.1Linux用户及组5.2Linux用户管理5.3Linux组管理5.4Linux用户及组案例5.5Linux权限管理5.6chown属主及属组5.7chmod用户及组权限5.8chmod二进制权限5.9Linux特殊权限及掩码本章小结同步作业第6章Linux软件包企业实战6.1RPM软件包管理6.2tar软件包管理......6.3zip软件包管理6.4源码包软件安装6.5YUM软件包管理6.5.1YUM工作原理......6.6基于ISO镜像构建YUM本地源6.7基于HTTP构建YUM网络源6.8YUM源端软件包扩展6.9同步外网YUM源本章小结同步作业第7章Linux磁盘管理7.1计算机硬盘简介7.2硬盘block及inode详解7.3硬链接介绍7.4软链接介绍7.5Linux下磁盘实战操作命令7.6基于GPT格式磁盘分区7.7mount命令工具7.7.1mount命令参数详解......7.8Linux硬盘故障修复本章小结同步作业第8章Linux文件服务器企业实战8.1进程与线程的概念及区别8.2Vsftpd服务器企业实战......第二篇Linux进阶篇第9章HTTP协议详解9.1TCP协议与HTTP协议9.2资源定位标识符9.3HTTP与端口通信9.4HTTP request与response详解9.5HTTP 1.0/1.1协议区别9.6HTTP状态码详解9.7HTTP MIME 类型支持第10章Apache Web服务器企业实战10.1Apache Web服务器入门简介10.2Prefork MPM工作原理10.3Worker MPM工作原理10.4Apache Web服务器安装10.5Apache虚拟主机企业应用10.6Apache常用目录学习10.7Apache配置文件详解10.8Apache rewrite规则实战第11章MySQL服务器企业实战11.1MySQL数据库入门简介11.2MySQL数据库安装方式11.3MySQL数据库**命令操作11.4MySQL数据库字符集设置11.5MySQL数据库密码管理11.6MySQL数据库配置文件详解11.7MySQL数据库索引案例11.8MySQL数据库慢查询11.9MySQL数据库优化11.10MySQL数据库集群实战11.11MySQL主从复制实战11.12MySQL主从同步排错思路第12章LAMP企业架构实战12.1LAMP企业架构简介12.2Apache与PHP工作原理12.3LAMP企业安装配置12.4LAMP企业架构拓展实战12.5LAMP+Redis企业实战......12.6Redis配置文件详解12.7Redis常用配置12.8Redis集群主从实战12.9Redis数据备份与恢复......12.10LAMP企业架构读写分离第13章Zabbix分布式监控企业实战13.1Zabbix监控系统入门简介13.2Zabbix监控组件及流程13.3Zabbix监控方式及数据采集13.4Zabbix监控概念13.5Zabbix监控平台部署13.6Zabbix配置文件详解13.7Zabbix自动发现及注册13.8Zabbix邮件报警13.9Zabbix监控MySQL主从复制13.10Zabbix日常问题汇总13.11Zabbix触发命令及脚本13.12Zabbix分布式配置13.13Zabbix微信报警13.14Zabbix监控网站关键词第14章Nginx Web服务器企业实战14.1Nginx Web入门简介14.2Nginx工作原理14.3Nginx安装配置14.4Nginx管理及升级14.5Nginx配置文件优化一14.6Nginx配置文件优化二14.7Nginx虚拟主机实战14.8Nginx location深入剖析14.9企业实战Nginx动静分离架构14.10企业实战LNMP高性能服务器14.11Nginx rewrite规则详解14.12Nginx Web日志分析14.13Nginx日志切割案例14.14Nginx防盗链配置案例14.15Nginx HTTPS企业实战第三篇Linux高级篇第15章Linux性能优化企业实战15.1TCP/IP报文详解15.2TCP三次握手及四次断开15.3优化Linux文件打开*大数15.4内核参数的优化15.5Linux内核报错剖析15.6影响服务器性能因素15.7Linux服务器性能评估与优化第16章大数据备份企业实战16.1企业级数据库备份实战16.2数据库备份方法及策略16.3xtrabackup企业实战16.4Percona�瞲trabackup备份实战16.5innobackupex增量备份16.6MySQL增量备份恢复第17章shell企业编程基础17.1shell编程入门简介17.2shell脚本及Hello World17.3shell编程之变量详解17.4if条件语句实战17.5if判断括号区别17.6MySQL数据库备份脚本17.7LAMP一键自动化安装脚本17.8for循环语句实战17.9while循环语句实战17.10case选择语句实战17.11select选择语句实战17.12shell编程函数实战17.13shell编程四剑客之find17.14shell编程四剑客之sed17.15shell编程四剑客之awk17.16shell编程四剑客之grep17.17shell数组编程第18章shell编程高级企业实战18.1shell编程实战系统备份脚本18.2shell编程实战收集服务器信息18.3shell编程实战拒绝恶意IP登录18.4shell编程实战LAMP一键安装18.5shell编程实战MySQL主从复制18.6shell编程实战修改IP及主机名18.7shell编程实战Zabbix安装配置18.8shell编程实战Nginx虚拟主机18.9shell编程实战Nginx、Tomcat脚本18.10shell编程实战Docker管理脚本18.11shell编程实战Bind管理脚本第19章自动化运维发展前景19.1传统运维方式简介19.2自动化运维简介19.3运维自动化的具体内容19.4建立高效的IT自动化运维管理19.5IT自动化运维工具19.6IT自动化运维体系第20章Puppet自动运维企业实战20.1Puppet入门简介20.2Puppet工作原理20.3Puppet安装配置20.4Puppet企业案例演示20.5Puppet常见资源及模块20.6Puppet file资源案例20.7Puppet package资源案例20.8Puppet service资源案例20.9Puppet exec资源案例20.10Puppet cron资源案例20.11Puppet日常管理与配置......20.12Puppet批量部署案例......第21章Ansible自动运维企业实战21.1自动化运维工具简介......21.2Ansible运维工具原理21.3Ansible管理工具安装配置21.4Ansible工具参数详解21.5Ansible ping模块实战21.6Ansible command模块实战21.7Ansible copy模块实战21.8Ansible YUM模块实战21.9Ansible file模块实战21.10Ansible user模块实战21.11Ansible cron模块实战21.12Ansible synchronize模块实战21.13Ansible shell模块实战21.14Ansible service模块实战21.15Ansible PlayBook应用21.16Ansible配置文件详解21.17Ansible性能调优第22章Jenkins持续集成企业实战22.1传统网站部署的流程22.2目前主流网站部署的流程22.3Jenkins持续集成简介22.4Jenkins持续集成组件22.5Jenkins平台安装部署22.6Jenkins相关概念22.7Jenkins平台设置22.8Jenkins构建JOB工程22.9Jenkins自动化部署22.10Jenkins插件安装22.11Jenkins邮件配置22.12Jenkins多实例配置22.13Jenkins+Ansible高并发构建第23章Linux高可用集群实战23.1keepalived高可用软件简介23.2keepalived VRRP原理剖析23.3企业级Nginx+keepalived集群实战23.4企业级Nginx+keepalived双主架构实战23.5Redis+keepalived高可用集群实战23.6NFS+keepalived高可用集群实战23.7MySQL+keepalived高可用集群实战23.8Haproxy+keepalived高可用集群实战......23.9LVS+keepalived高可用集群实战......第24章实战Docker虚拟化技术24.1虚拟化概述及简介24.2Docker入门简介24.3Docker LXC及Cgroup24.4Docker虚拟化特点24.5Docker虚拟化原理24.6Docker安装配置24.7Docker**命令24.8Docker网络详解24.9Docker桥接配置24.10DockerFile参数详解24.11DockerFile企业案例一24.12DockerFile企业案例二24.13DockerFile企业案例三24.14DockerFile企业案例四24.15Docker磁盘扩容24.16Docker构建私有仓库24.17Docker自动化部署一24.18Docker自动化部署二第25章Openstack+KVM构建企业私有云25.1云计算及Openstack入门25.2Opentstack核心组件25.3Openstack准备环境25.4主机名及防火墙设置25.5Openstack服务安装25.6MQ消息队列服务......25.7配置Keystone验证服务25.8配置Glance镜像服务25.9Nova控制节点配置25.10Nova计算节点配置25.11Openstack节点测试25.12Neutron控制节点配置25.13Neutron计算节点配置25.14控制节点创建网桥25.15控制节点配置dashboard25.16Openstack GUI配置25.17Openstack核心流程
